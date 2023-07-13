@@ -4,10 +4,6 @@
     "description": "Extensão para pesquisar posts no www.tabnews.com.br com o Google",
     "version": "0.1",
   
-    "web_accessible_resources": [{
-      "matches": ["<all_urls>"]
-  }],
-  
  
     "content_scripts": [
       {
