@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "TabSearch | Pesquise no TabNews",
+    "description": "Extensão para pesquisar posts no www.tabnews.com.br com o Google",
+    "version": "0.1",
+  
+    "web_accessible_resources": [{
+      "matches": ["<all_urls>"]
+  }],
+  
+ 
+    "content_scripts": [
+      {
+        "js": ["src/script.js"],
+        "matches": [
+          "https://www.tabnews.com.br/*",
+          "https://tabnews.com.br/*"
+      ]
+      }]
+  }
